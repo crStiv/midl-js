@@ -4,7 +4,7 @@
 
 Etches (mints) a rune on Bitcoin. The rune will be etched and revealed in the consecutive transactions.
 This function creates the etching, funding, and reveal transactions.
-The transactions won't be broadcasted. Once the transactions are created, you can broadcast them using the [broadcastTransaction](broadcastTransaction.md) function in
+The transactions won't be broadcast. Once the transactions are created, you can broadcast them using the [broadcastTransaction](broadcastTransaction.md) function in
 the following order: funding, etching, reveal.
 
 ## Import
