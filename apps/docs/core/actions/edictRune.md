@@ -41,7 +41,7 @@ edictRune(config, {
 | --------- | -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | feeRate?  | `number`                                                                                                                   | The fee rate in satoshis per byte                                 |
 | from?     | `string`                                                                                                                   | The address to transfer the rune from                             |
-| publish?  | `boolean`                                                                                                                  | If true, the transaction will be broadcasted                      |
+| publish?  | `boolean`                                                                                                                  | If true, the transaction will be broadcast                      |
 | transfers | (\{ `amount`: `bigint`; `receiver`: `string`; `runeId`: `string`; \} \| \{ `amount`: `number`; `receiver`: `string`; \})[] | An array of transfers, supporting both rune and bitcoin transfers |
 
 ## Returns
