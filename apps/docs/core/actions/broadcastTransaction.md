@@ -2,7 +2,7 @@
 
 > **broadcastTransaction**(`config`, `txHex`): `Promise`\<`string`\>
 
-Broadcasts a transaction to the bitcoin network. If the transaction is successfully broadcasted, the transaction hash is returned.
+Broadcasts a transaction to the bitcoin network. If the transaction is successfully broadcast, the transaction hash is returned.
 
 ## Import
 
